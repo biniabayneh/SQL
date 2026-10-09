@@ -1,0 +1,201 @@
+{
+    "type": "MySQLNotebook",
+    "version": "1.0",
+    "caption": "DB Notebook 6",
+    "content": "\\about\nSELECT \nfirst_name ,\nlast_name,\nage,\nage + 21\nfrom parks_and_recreation.employee_demographics;\nselect first_name,\nlast_name,\nage,\n(age + 10)/(2)\nfrom parks_and_recreation.employee_demographics;\n#PEDMDS(MATHS OPERATION IN SQL SEQUENCE)\nSELECT DISTINCT   gender \nfrom parks_and_recreation.employee_demographics; \n#distnict means to deffirantiate two single distnict in a table\n",
+    "options": {
+        "tabSize": 4,
+        "indentSize": 4,
+        "insertSpaces": true,
+        "defaultEOL": "LF",
+        "trimAutoWhitespace": true
+    },
+    "viewState": {
+        "cursorState": [
+            {
+                "inSelectionMode": true,
+                "selectionStart": {
+                    "lineNumber": 15,
+                    "column": 50
+                },
+                "position": {
+                    "lineNumber": 15,
+                    "column": 1
+                }
+            }
+        ],
+        "viewState": {
+            "scrollLeft": 0,
+            "firstPosition": {
+                "lineNumber": 2,
+                "column": 1
+            },
+            "firstPositionDeltaTop": -13
+        },
+        "contributionsState": {
+            "editor.contrib.folding": {},
+            "editor.contrib.wordHighlighter": false
+        }
+    },
+    "contexts": [
+        {
+            "state": {
+                "start": 1,
+                "end": 1,
+                "language": "mysql",
+                "result": {
+                    "type": "text",
+                    "text": [
+                        {
+                            "type": 2,
+                            "content": "Welcome to the DB Notebook.\n\nUse DB Notebooks to explore MySQL data with executable SQL, JavaScript, and TypeScript code blocks.\n\n* Press Ctrl+Enter to execute or re-execute the selected code block.\n* Use Up and Down keys to move between code blocks.\n* Use Ctrl+Up and Ctrl+Down to navigate through the command history.\n\n* Execute \\sql to switch to SQL, \\js to JavaScript and \\ts to TypeScript mode.\n* Execute \\help or \\? for help;",
+                            "language": "ansi"
+                        }
+                    ]
+                },
+                "currentHeight": 194.65625,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 6
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 2,
+                "end": 7,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 94
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 8,
+                "end": 16,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "b42ba096-e784-43dc-870a-21fbeff8cc51"
+                    ]
+                },
+                "currentHeight": 352,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 98
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 98,
+                            "length": 116
+                        },
+                        "contentStart": 140,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 214,
+                            "length": 65
+                        },
+                        "contentStart": 214,
+                        "state": 1
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "efbf8542-d2d9-474e-c987-11a7183ec9d9",
+                    "resultId": "b42ba096-e784-43dc-870a-21fbeff8cc51",
+                    "rows": [
+                        {
+                            "0": "Female"
+                        },
+                        {
+                            "0": "Male"
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "gender",
+                            "field": "0",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 2 records retrieved in 1.816ms"
+                    },
+                    "totalRowCount": 2,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "\n#PEDMDS(MATHS OPERATION IN SQL SEQUENCE)\nSELECT DISTINCT   gender \nfrom parks_and_recreation.employee_demographics;",
+                    "updatable": false,
+                    "fullTableName": ""
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 17,
+                "end": 17,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 0
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        }
+    ]
+}
